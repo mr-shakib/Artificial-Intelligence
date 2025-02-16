@@ -26,26 +26,26 @@ def best_first_search(graph, heuristic, start, goal):
 
 
 graph = {
-    'Arad': [('Timisoara', 1), ('Zerind', 1), ('Sibiu', 1)],
-    'Zerind': [('Arad', 1), ('Oradea', 1)],
-    'Oradea': [('Zerind', 1), ('Sibiu', 1)],
-    'Timisoara': [('Arad', 1), ('Lugoj', 1)],
-    'Lugoj': [('Timisoara', 1), ('Mehadia', 1)],
-    'Mehadia': [('Lugoj', 1), ('Dobreta', 1)],
-    'Dobreta': [('Mehadia', 1), ('Craiova', 1)],
-    'Sibiu': [('Arad', 1), ('Oradea', 1), ('Fagaras', 1), ('Rimnicu_Vilcea', 1)],
-    'Fagaras': [('Sibiu', 1), ('Bucharest', 1)],
-    'Rimnicu_Vilcea': [('Sibiu', 1), ('Pitesti', 1), ('Craiova', 1)],
-    'Pitesti': [('Rimnicu_Vilcea', 1), ('Bucharest', 1), ('Craiova', 1)],
-    'Craiova': [('Dobreta', 1), ('Rimnicu_Vilcea', 1), ('Pitesti', 1)],
-    'Bucharest': [('Fagaras', 1), ('Pitesti', 1), ('Giurgiu', 1), ('Urziceni', 1)],
-    'Giurgiu': [('Bucharest', 1)],
-    'Urziceni': [('Bucharest', 1), ('Hirsova', 1)],
-    'Hirsova': [('Urziceni', 1), ('Eforie', 1), ('Vaslui', 1)],
-    'Eforie': [('Hirsova', 1)],
-    'Vaslui': [('Hirsova', 1), ('Iasi', 1)],
-    'Iasi': [('Vaslui', 1), ('Neamt', 1)],
-    'Neamt': [('Iasi', 1)]
+    'Arad': [('Timisoara', 118), ('Zerind', 75), ('Sibiu', 140)],
+    'Zerind': [('Arad', 75), ('Oradea', 71)],
+    'Oradea': [('Zerind', 71), ('Sibiu', 151)],
+    'Timisoara': [('Arad', 118), ('Lugoj', 111)],
+    'Lugoj': [('Timisoara', 111), ('Mehadia', 70)],
+    'Mehadia': [('Lugoj', 70), ('Dobreta', 75)],
+    'Dobreta': [('Mehadia', 75), ('Craiova', 120)],
+    'Sibiu': [('Arad', 140), ('Oradea', 151), ('Fagaras', 99), ('Rimnicu_Vilcea', 80)],
+    'Fagaras': [('Sibiu', 99), ('Bucharest', 211)],
+    'Rimnicu_Vilcea': [('Sibiu', 80), ('Pitesti', 97), ('Craiova', 138)],
+    'Pitesti': [('Rimnicu_Vilcea', 97), ('Bucharest', 101), ('Craiova', 138)],
+    'Craiova': [('Dobreta', 120), ('Rimnicu_Vilcea', 146), ('Pitesti', 138)],
+    'Bucharest': [('Fagaras', 211), ('Pitesti', 101), ('Giurgiu', 90), ('Urziceni', 85)],
+    'Giurgiu': [('Bucharest', 90)],
+    'Urziceni': [('Bucharest', 85), ('Hirsova', 98)],
+    'Hirsova': [('Urziceni', 98), ('Eforie', 86), ('Vaslui', 142)],
+    'Eforie': [('Hirsova', 86)],
+    'Vaslui': [('Urziceni', 142), ('Iasi', 92)],
+    'Iasi': [('Vaslui', 92), ('Neamt', 87)],
+    'Neamt': [('Iasi', 87)]
 }
 
 
